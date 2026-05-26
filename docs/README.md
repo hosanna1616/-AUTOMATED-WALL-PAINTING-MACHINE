@@ -106,7 +106,7 @@ All SW1–SW5 use `INPUT_PULLUP` (pressed = LOW).
 - SW4 ignored while SW1 active (conflict warning)
 - Serial errors, warnings, and status messages
 
-## Build and Upload
+<!-- ## Build and Upload
 
 ### Requirements
 
@@ -120,8 +120,8 @@ All SW1–SW5 use `INPUT_PULLUP` (pressed = LOW).
 2. Select **Tools → Board → Arduino UNO**.
 3. Select the correct **Port**.
 4. Click **Verify** then **Upload**.
-5. Open **Serial Monitor** at **9600 baud**.
-
+5. Open **Serial Monitor** at **9600 baud**. -->
+<!-- 
 ### Project Layout
 
 ```
@@ -151,16 +151,16 @@ At 9600 baud you will see:
 - `[MOTOR]` wheel / turn messages
 - `[SERVO]` angle updates
 - `[DRUM]` wrap / release state
-- `[ERROR]` / `[WARN]` as applicable
+- `[ERROR]` / `[WARN]` as applicable -->
 
-## Documentation Index
+<!-- ## Documentation Index
 
 | Document | Contents |
 |----------|----------|
 | [WIRING.md](WIRING.md) | Wiring description, pin table, power notes |
 | [TESTING.md](TESTING.md) | Unit/integration tests, test cases 1–7 |
-| [FLOWCHART.md](FLOWCHART.md) | Flowcharts and diagrams |
-
+| [FLOWCHART.md](FLOWCHART.md) | Flowcharts and diagrams | -->
+<!-- 
 ## Failure Analysis and Recovery
 
 See [TESTING.md — Failure Analysis](TESTING.md#failure-analysis) for switch, servo, motor, power, connection, pump, and reset failures with recovery steps.
@@ -190,8 +190,6 @@ See [TESTING.md — Failure Analysis](TESTING.md#failure-analysis) for switch, s
 
 - Disconnect battery.
 - Drain or seal paint lines to avoid pump blockage.
-- Store servos at mid position to reduce spring load on linkages.
+- Store servos at mid position to reduce spring load on linkages. -->
 
-## License / Academic Use
 
-Final Year Project reference implementation — modify `Config.h` for mechanical tuning (turn duration, motor timeout) only as needed for your hardware.
